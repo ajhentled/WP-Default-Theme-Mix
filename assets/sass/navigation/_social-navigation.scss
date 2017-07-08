@@ -1,0 +1,98 @@
+.social-navigation {
+	ul {
+		display: block;
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		display: inline-block;
+		font-size: 0.75em; /* 12px */
+		line-height: 0.75em; /* 12px */
+		margin: 0;
+		text-align: center;
+	}
+
+	a {
+		border: 0;
+		font-size: 0.75rem; /* 12px */
+		height: 1em;
+		text-decoration: none;
+		width: 1em;
+
+		&:hover {
+			text-shadow: 1px 1px 2px #444;
+		}
+
+		&:before {
+			content: "\f0c1";
+			display: inline-block;
+			font-family: "FontAwesome";
+			font-size: 1.5em;
+			font-style: normal;
+			font-weight: normal;
+			height: auto;
+			line-height: 1;
+			speak: none;
+			text-decoration: inherit;
+			vertical-align: top;
+			width: 1.5em;
+			-webkit-font-smoothing: antialiased;
+			-moz-osx-font-smoothing: grayscale;
+		}
+
+		/* CodePen */
+		&[href*="codepen.io"]:before { content: "\f1cb"; }
+		/* Digg */
+		&[href*="digg.com"]:before { content: "\f1a6"; }
+		/* Dribbble */
+		&[href*="dribbble.com"]:before { content: "\f17d"; }
+		/* Dropbox */
+		&[href*="dropbox.com"]:before { content: "\f16b"; }
+		/* Email */
+		&[href*="mailto:"]:before { content: "\f0e0"; }
+		/* Facebook */
+		&[href*="facebook.com"]:before { content: "\f09a"; }
+		/* Flickr */
+		&[href*="flickr.com"]:before { content: "\f16e"; }
+		/* Foursquare */
+		&[href*="foursquare.com"]:before { content: "\f180"; }
+		/* GitHub */
+		&[href*="github.com"]:before { content: "\f09b"; }
+		/* Google Plus */
+		&[href*="plus.google.com"]:before { content: "\f0d5"; }
+		/* Instagram */
+		&[href*="instagram.com"]:before { content: "\f16d"; }
+		/* LinkedIn */
+		&[href*="linkedin.com"]:before { content: "\f0e1"; }
+		/* Pinterest */
+		&[href*="pinterest.com"]:before { content: "\f0d2"; }
+		/* Pocket */
+		&[href*="getpocket.com"]:before { content: "\f265"; }
+		/* Reddit */
+		&[href*="reddit.com"]:before { content: "\f1a1"; }
+		/* RSS Feed */
+		&[href$="/feed/"]:before { content: "\f09e"; }
+		/* Skype */
+		&[href*="skype:"]:before { content: "\f17e"; }
+		/* Spotify */
+		&[href*="spotify.com"]:before { content: "\f1bc"; }
+		/* StumbleUpon */
+		&[href*="stumbleupon.com"]:before { content: "\f1a4"; }
+		/* Tumblr */
+		&[href*="tumblr.com"]:before { content: "\f173"; }
+		/* Twitch */
+		&[href*="twitch.tv"]:before { content: "\f1e8"; }
+		/* Twitter */
+		&[href*="twitter.com"]:before { content: "\f099"; }
+		/* Vimeo */
+		&[href*="vimeo.com"]:before { content: "\f27d"; }
+		/* Vine */
+		&[href*="vine.co"]:before { content: "\f1ca"; }
+		/* WordPress */
+		&[href*="wordpress.com"]:before,
+		&[href*="wordpress.org"]:before { content: "\f19a"; }
+		/* YouTube */
+		&[href*="youtube.com"]:before { content: "\f16a"; }
+	}
+}

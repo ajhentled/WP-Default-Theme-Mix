@@ -232,13 +232,8 @@ function scwd_scripts() {
 	wp_enqueue_style( 'scwd-font-awesome', get_template_directory_uri() . '/assets/css/font-awesome.min.css');
 
 	/* Load Stylesheets */
-	// Bootstrap
-	// wp_enqueue_style( 'scwd-bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
-	// wp_enqueue_style( 'scwd-bootstrap-theme', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css');
 	// Social Menu
 	wp_enqueue_style( 'scwd-social-menu', get_template_directory_uri() . '/assets/css/social-menu.css');
-	// Theme Base
-	// wp_enqueue_style( 'scwd-theme-base', get_template_directory_uri() . '/assets/css/theme-base.css');
 	// Main Styles
 	wp_enqueue_style( 'scwd-main', get_template_directory_uri() . '/dist/css/main.css');
 	wp_enqueue_style( 'scwd-style', get_stylesheet_uri() );
